@@ -5,8 +5,8 @@ export function Tabuleiro () {
     return (
         <>
             <div className='linha-do-tabuleiro'>
-                <Quadrado valor={1} />
-                <Quadrado valor={2} />
+                <Quadrado  />
+                <Quadrado  />
                 <Quadrado />
             </div>
             <div className='linha-do-tabuleiro'>

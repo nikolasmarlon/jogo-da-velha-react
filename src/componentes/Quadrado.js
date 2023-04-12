@@ -1,9 +1,12 @@
+import { useState } from 'react'
 import './estilos/styles.css'
 
-export function Quadrado ( { valor }) {
+export function Quadrado ( ) {
+
+    const [valor, setValor] = useState(null)
 
     function handleClique() {
-        console.log('Clicado')
+        setValor('X')
     }
 
     return (
