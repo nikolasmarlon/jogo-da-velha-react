@@ -1,9 +1,10 @@
+import { Quadrado } from "./componentes/Quadrado";
 
 
 export function App() {
   return (
     <div>
-      <h1>Ola</h1>
+      <Quadrado />
     </div>
   );
 }
