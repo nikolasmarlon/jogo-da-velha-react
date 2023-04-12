@@ -1,10 +1,10 @@
-import { Quadrado } from "./componentes/Quadrado";
+import { Tabuleiro } from "./componentes/Tabuleiro";
 
 
 export function App() {
   return (
     <div>
-      <Quadrado />
+      <Tabuleiro />
     </div>
   );
 }

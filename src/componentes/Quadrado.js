@@ -1,16 +1,12 @@
 import './estilos/styles.css'
 
-export function Quadrado () {
+export function Quadrado ( { valor }) {
+
+    function handleClique() {
+        console.log('Clicado')
+    }
+
     return (
-        <>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-            <button className="quadrado">x</button>
-        </>
+        <button onClick={handleClique} className="quadrado">{valor}</button>
     )
 }

@@ -71,7 +71,7 @@
     width: 34px;
   }
   
-  .board-row:after {
+  .linha-do-tabuleiro:after {
     clear: both;
     content: '';
     display: table;
