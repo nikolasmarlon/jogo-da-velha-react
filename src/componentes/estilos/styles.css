@@ -6,6 +6,11 @@
     font-family: sans-serif;
     margin: 20px;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
   }
   
   h1 {
@@ -55,6 +60,12 @@
     margin: 20px;
     padding: 0;
   }
+
+  main {
+    
+    display: flex;
+    justify-content: center;
+  }
   
   .quadrado {
     background: #fff;
@@ -76,10 +87,14 @@
     clear: both;
     content: '';
     display: table;
+    
   }
   
   .status {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
   }
   .game {
     display: flex;
